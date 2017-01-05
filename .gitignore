@@ -7,7 +7,8 @@
 
 # Random files
 *~
-\#*
+\#* 
+.DS_STORE
 
 virtualenv/
 htmlcov/

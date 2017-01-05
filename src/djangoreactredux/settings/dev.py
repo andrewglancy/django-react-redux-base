@@ -5,6 +5,12 @@ DEBUG = True
 
 PAGE_CACHE_SECONDS = 1
 
+ALLOWED_HOSTS = [
+    '*',
+]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
